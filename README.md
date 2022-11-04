@@ -21,3 +21,15 @@ configured to a local installation of SAS or a sever installation following the
 steps in the documentation. *** It is import to note that some examples use SAS
 to read in data. The datafile that is being imported needs to be located
 locally to the SAS installation and the path modified as needed.
+
+##Some Important Links
+If you used anaconda to create the environments as mentioned above, it is note
+necessary to redo this step as mentioned in vendor specific documentations.
+###saspy:
+https://sassoftware.github.io/saspy/
+###DWave Ocean SDK:
+https://docs.ocean.dwavesys.com/en/stable/getting_started.html
+###Xanadu (PennyLane) & the quantum Device and machine learning addins
+https://pennylane.ai/install.html
+###IBM Qiskit:
+https://qiskit.org/documentation/getting_started.html
