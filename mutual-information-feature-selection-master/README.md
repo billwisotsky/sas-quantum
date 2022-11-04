@@ -48,7 +48,11 @@ for solution.
 [1]: https://en.wikipedia.org/wiki/Feature_selection
 [2]: https://en.wikipedia.org/wiki/Mutual_information
 
+<<<<<<< HEAD
 ### SAS:
+=======
+### SAS
+>>>>>>> main
 The code uses SASPY which can be configured to work with local installation or
 sever SAS. See instructions on how to download and configure
 (https://sassoftware.github.io/saspy/). Once the saspy has been successfully
