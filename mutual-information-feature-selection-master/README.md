@@ -6,21 +6,29 @@
 
 The demo illustrates the MIQUBO method by finding an optimal feature set for
 predicting survival of Titanic passengers. It uses records provided in file
-`formatted_titanic.csv`, which is a feature-engineered version of a public
-database of passenger information recorded by the ship's crew (in addition to a
-column showing survival for each passenger, it contains information on gender,
-title, class, port of embarkation, etc). Its output is a ranking of subsets of
-features that have high MI with the variable of interest (survival) and low
-redundancy.
+`formatted_titanic.csv` that is located in the data directory. It is a
+feature-engineered version of a public database of passenger information
+recorded by the ship's crew (in addition to a column showing survival for each
+passenger, it contains information on gender, title, class, port of embarkation,
+etc). Its output is a ranking of subsets of features that have high MI with the
+variable of interest (survival) and low redundancy.
 
-## Usage
+The Dwave code was obtained from the demo sections of the DWave website and has
+since been modified to work with SAS.
 
+## Jupyter Notebook
+
+```bash
+Feature Selection.ipynb
+```
+## Python Code
+Original Python Code from DWave prior to modifying for SAS integration
 ```bash
 python titanic.py
 ```
-
 ## Code Overview
 
+### DWAVE:
 Statistical and machine-learning models use a set of input variables (features)
 to predict output variables of interest. [Feature selection][1], which can be part
 of the model design process, simplifies the model and reduces dimensionality by
@@ -71,6 +79,14 @@ paper, [Effective Global Approaches for Mutual Information Based Feature
 Selection](https://dl.acm.org/citation.cfm?id=2623611), by Nguyen, Chan, Romano,
 and Bailey published in the Proceedings of the 20th ACM SIGKDD international
 conference on knowledge discovery and data mining.
+
+### SAS
+The code uses SASPY which can be configured to work with local installation or
+sever SAS. See instructions on how to download and configure
+(https://sassoftware.github.io/saspy/). Once the saspy has been successfully
+the code should be able to be run. The SAS Code basically accepts the output
+from the DWave quantum processing and uses that output to create a series
+of visualizations.
 
 ## References
 
