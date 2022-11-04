@@ -48,6 +48,14 @@ for solution.
 [1]: https://en.wikipedia.org/wiki/Feature_selection
 [2]: https://en.wikipedia.org/wiki/Mutual_information
 
+### SAS
+The code uses SASPY which can be configured to work with local installation or
+sever SAS. See instructions on how to download and configure
+(https://sassoftware.github.io/saspy/). Once the saspy has been successfully
+the code should be able to be run. The SAS Code basically accepts the output
+from the DWave quantum processing and uses that output to create a series
+of visualizations.
+
 ## Code Specifics
 
 ### MIQUBO
@@ -79,14 +87,6 @@ paper, [Effective Global Approaches for Mutual Information Based Feature
 Selection](https://dl.acm.org/citation.cfm?id=2623611), by Nguyen, Chan, Romano,
 and Bailey published in the Proceedings of the 20th ACM SIGKDD international
 conference on knowledge discovery and data mining.
-
-### SAS
-The code uses SASPY which can be configured to work with local installation or
-sever SAS. See instructions on how to download and configure
-(https://sassoftware.github.io/saspy/). Once the saspy has been successfully
-the code should be able to be run. The SAS Code basically accepts the output
-from the DWave quantum processing and uses that output to create a series
-of visualizations.
 
 ## References
 
