@@ -29,7 +29,7 @@ necessary to redo this step as mentioned in vendor specific documentations.
 https://sassoftware.github.io/saspy/
 ### DWave Ocean SDK:
 https://docs.ocean.dwavesys.com/en/stable/getting_started.html
-### Xanadu (PennyLane) & the quantum Device and machine learning addins
+### Xanadu (PennyLane) & the quantum device and machine learning addins
 https://pennylane.ai/install.html
 ### IBM Qiskit:
 https://qiskit.org/documentation/getting_started.html
